@@ -1,22 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+# DAILY WORK REPORT
 
-    <h1>2022년 4월 26일 화요일</h1>
-    <ol>주간 업무</ol>
-        <ol>배포 테스트</ol>
-    
-    <ol>세부 업무</ol>
-        <li>git 카테고리</li>
-            <ol>git 명령어 연습</ol>
-            <ol>카테고리 완독</ol>
-    
-</body>
-</html>
+## 2022.04.26 화요일
 
+### 주요업무
+- 주요업무
+
+### 주간업무
+1. 주간업무 :: 20%
+    - 주간업무-1 :: 20%
+        + 주간업무-1 상세 1
+        + 주간업무-1 상세 2
+
+    - 주간업무-2 :: 50%
+        + 주간업무-2 상세 1
+        + 주간업무-2 상세 2
+
+2. 주간업무 :: 70%
+    - 주간업무-3 :: 20%
+    - 주간업무-4 :: 30%
+        + 주간업무-4 상세 1
+        + 주간업무-4 상세 2
+
+### 세부업무
+- 세부업무
+    + 세부업무 상세 1
+    + 세부업무 상세 2
+
+### 업무계획
+- 업무계획
+    + 업무계획 상세 1
+    + 업무계획 상세 2
+
+### 특이사항
+- 특이사항
+    + 특이사항 상세 1
+    + 특이사항 상세 2
+
+---

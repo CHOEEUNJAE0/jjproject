@@ -10,13 +10,13 @@
 
         - 예를 들자면 우리는 TV를 보기 위해서 리모컨을 이용해서 TV를 켜고 채널을 바꾸고 끄고 등의 행위를 할 수 있다.
             나 - 리모컨 - TV 가 이렇게 있다면 여기에서 리모컨이 API의 역할을 하며 리모컨을 통해서 TV를 제어 할 수 있게 되는것이다.
-            즉, 리모컨과 TV 처럼 애플리케이션과 운영체제 그리고 애플리케이션과 프로그래밍 언어가 제공하는 기능 사이의 _상호작용_을 도와준다.
+            즉, 리모컨과 TV 처럼 애플리케이션과 운영체제 그리고 애플리케이션과 프로그래밍 언어가 제공하는 기능 사이의 _상호작용_ 을 도와준다.
 
 ### 웹 API
 
   + 웹은 기본적으로 요청(Request)와 응답(Response)로 동작한다.
 
-    ![요청과 응답] (https://velog.velcdn.com/images%2Ftaeha7b%2Fpost%2F60b3813e-6a51-4598-a412-62e4267a7e00%2F%EC%9A%94%EC%B2%AD%EA%B3%BC%20%EC%9D%91%EB%8B%B5.png)
+    ![](https://velog.velcdn.com/images%2Ftaeha7b%2Fpost%2F60b3813e-6a51-4598-a412-62e4267a7e00%2F%EC%9A%94%EC%B2%AD%EA%B3%BC%20%EC%9D%91%EB%8B%B5.png)
     
     이렇게 클라이언트 쪽에서 요청을 하면 서버에서 응답을 하게 된다.
 
@@ -29,3 +29,27 @@
 
     - 모든 요청과 응답을 표준화
        어느 운영 체재를 사용하던 상관 없이 동일한 API를 사용하기 때문에 클라이언트의 요청과 서버의 응답을 하나의 API로 표준화 한다.
+
+## REST API 
+
+  ### REST API 정의
+
+    + REST API(REpresentational State Transfer)는 웹상에서 사용되는 여러 리소스를 HTTP URI로 표현 하고, 해당 리소스에 대한 행위를 HTTP Method로 정의 하는 방식이다.
+
+      - 리소스(http uri로 정의 된)를 어떻게 하겠다(HTTP Method + payload)를 구조적으로 깔끔하게 표햔하는 방법이며
+        HTTP Method는 우리가 사용하던 CRUD를 POST, GET , PUT, DELETE로 사용하는 것이다.
+    
+    + REST API 설계 가이드
+      - 리소스에 대한 행위는 HTTP Method(POST, GET, PUT, DELETE)로 표현해야한다.
+      - / 는 계층 관계를 나타낼 때 사용
+      - URI에 _ 는 사용하지 않도락 한다. 대문자보다는 _소문자_ 를 쓴다.
+      - 가독성을 위해 최대한 짧게. 명사로.
+      - URI에 파일의 확장자(.jpg, .png  등등)을 포함하지 않는다.
+
+## RESTful API 
+
+ ### RESTful API 정의
+
+  + RESTful API는 REST API 설계 가이드를 따라 API를 만드는 것이다.
+
+    - REST API 설계 가이드에 따라 API를 만들어서 웹 서비스를 제공하면 해당 웹 서비스는 _RESTful 하다_ 라고 한다.

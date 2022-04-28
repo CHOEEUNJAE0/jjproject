@@ -15,5 +15,4 @@
 ### 웹 API
 
   + 웹은 기본적으로 요청(Request)와 응답(Response)로 동작한다.
-    !(요청과 응답) (https://velog.velcdn.com/images%2Ftaeha7b%2Fpost%2F60b3813e-6a51-4598-a412-62e4267a7e00%2F%EC%9A%94%EC%B2%AD%EA%B3%BC%20%EC%9D%91%EB%8B%B5.png)
-    
+    ![요청과 응답] (https://velog.velcdn.com/images%2Ftaeha7b%2Fpost%2F60b3813e-6a51-4598-a412-62e4267a7e00%2F%EC%9A%94%EC%B2%AD%EA%B3%BC%20%EC%9D%91%EB%8B%B5.png)
